@@ -1,0 +1,15 @@
+C:\Users\emman\source\repos\learning_opp_animals\learning_opp_animals\bin\Debug\net6.0\learning_opp_animals.exe
+C:\Users\emman\source\repos\learning_opp_animals\learning_opp_animals\bin\Debug\net6.0\learning_opp_animals.deps.json
+C:\Users\emman\source\repos\learning_opp_animals\learning_opp_animals\bin\Debug\net6.0\learning_opp_animals.runtimeconfig.json
+C:\Users\emman\source\repos\learning_opp_animals\learning_opp_animals\bin\Debug\net6.0\learning_opp_animals.dll
+C:\Users\emman\source\repos\learning_opp_animals\learning_opp_animals\bin\Debug\net6.0\ref\learning_opp_animals.dll
+C:\Users\emman\source\repos\learning_opp_animals\learning_opp_animals\bin\Debug\net6.0\learning_opp_animals.pdb
+C:\Users\emman\source\repos\learning_opp_animals\learning_opp_animals\obj\Debug\net6.0\learning_opp_animals.csproj.AssemblyReference.cache
+C:\Users\emman\source\repos\learning_opp_animals\learning_opp_animals\obj\Debug\net6.0\learning_opp_animals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emman\source\repos\learning_opp_animals\learning_opp_animals\obj\Debug\net6.0\learning_opp_animals.AssemblyInfoInputs.cache
+C:\Users\emman\source\repos\learning_opp_animals\learning_opp_animals\obj\Debug\net6.0\learning_opp_animals.AssemblyInfo.cs
+C:\Users\emman\source\repos\learning_opp_animals\learning_opp_animals\obj\Debug\net6.0\learning_opp_animals.csproj.CoreCompileInputs.cache
+C:\Users\emman\source\repos\learning_opp_animals\learning_opp_animals\obj\Debug\net6.0\learning_opp_animals.dll
+C:\Users\emman\source\repos\learning_opp_animals\learning_opp_animals\obj\Debug\net6.0\ref\learning_opp_animals.dll
+C:\Users\emman\source\repos\learning_opp_animals\learning_opp_animals\obj\Debug\net6.0\learning_opp_animals.pdb
+C:\Users\emman\source\repos\learning_opp_animals\learning_opp_animals\obj\Debug\net6.0\learning_opp_animals.genruntimeconfig.cache
