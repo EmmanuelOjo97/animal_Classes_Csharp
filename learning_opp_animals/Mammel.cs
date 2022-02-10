@@ -20,10 +20,25 @@ namespace learning_opp_animals
 
         //////////////////////// Constructors////////////////
 
+        /*public Mammel() : base("Default", 1)
+        {
 
+        }*/
 
+        public Mammel(string Name, int Age) : base(Name, Age)
+        {
 
+        }
 
+        public Mammel(string Name) : this(Name, 0)
+        {
+
+        }
+
+        public Mammel(int Age) : this("", Age)
+        {
+
+        }
 
 
 
@@ -35,7 +50,7 @@ namespace learning_opp_animals
         // public abstract void breathe();
         override public void breathe()
         {
-
+            Console.WriteLine("Take in Oxygen expel cO2");
         }
 
         /*public override Mammel reproduce(Mammel otherParent)
@@ -46,6 +61,11 @@ namespace learning_opp_animals
         public override Mammel reproduce(Animal[] OtherParent)
         {
             throw new NotImplementedException();
+        }
+
+        public override void eat(string food)
+        {
+            Console.WriteLine("Our mammel is eating" + food);
         }
 
 

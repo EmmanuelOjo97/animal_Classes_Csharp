@@ -18,39 +18,48 @@ namespace learning_opp_animals
 
 
 
+        //////////////////////// Constructors ////////////////
+
+        public Bat(String Name, int Age) : base(Name, Age)
+        {
+
+        }
+
+        public Bat(int Age) : this("ManBat", Age)
+        {
+
+        }
+
+
+
+
+
+
 
         //////////////////////// Attributes////////////////
-
-
-
-
-
-
-
-
-
-
-
-
-        //////////////////////// Attributes////////////////
-        public override void eat(string food)
+        /*public override void eat(string food)
         {
             throw new NotImplementedException();
+        }*/
+
+        public void flight()
+        {
+            Console.WriteLine("In the air we are");
         }
 
-        public string flight()
+        public void landing()
         {
-            return "In the air we are";
+            Console.WriteLine("We have touch the ground");
         }
 
-        public string landing()
+        public void takeOff()
         {
-            return "We have touch the ground";
+            Console.WriteLine("We have taken off");
         }
 
-        public string takeOff()
+        public string flapWings()
         {
-            return "We have taken off";
+            return "the flying animal is flapping its wings";
         }
     }
 }

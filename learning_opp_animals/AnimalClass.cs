@@ -18,16 +18,29 @@ namespace learning_opp_animals
 
 
 
+
         /////////////////// Constructors///////////////////
 
 
 
-        public Animal()
-            : base()
+        public Animal(string Name, int Age)
         {
-            Age = 1;
-            Name = "John Cena";
+            this.Age = Age;
+            this.Name = Name;
+
         }
+
+        public Animal(string Name) : this(Name, 0)
+        {
+
+        }
+
+        public Animal(int Age) : this("", Age)
+        {
+
+        }
+
+
 
 
         ///////////////Methods///////////////////////////////

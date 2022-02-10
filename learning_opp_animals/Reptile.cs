@@ -6,14 +6,16 @@ using System.Threading.Tasks;
 
 namespace learning_opp_animals
 {
-    public interface Flying
+    public interface Reptile
     {
-        public void takeOff();
-        public void flight();
+        public void ShedSkin();
+        public void LayEggs();
 
-        public string flapWings();
 
-        public void landing();
+
+
+
+
 
     }
 }
