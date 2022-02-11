@@ -10,8 +10,7 @@ public class Program
 
         Bat myBat = new Bat("BatMan", 20);
 
-        //Console.WriteLine(myBat.takeOff);
-        //Console.WriteLine(myBat.flight);
+
         myBat.takeOff();
         myBat.flight();
         myBat.landing();
@@ -19,21 +18,47 @@ public class Program
 
 
         Console.WriteLine(myBat.Age);
-        //myBat.Name = "Not John Cena";
         Console.WriteLine(myBat.Name);
         myBat.eat("french fries");
 
         Console.WriteLine("What is the name of your dog");
         Dog myDog = new Dog("Dogman", 10, "Pug", 30);
-        // myDog.Name = Console.ReadLine();
         Console.WriteLine("Hello there " + myDog.Name + " you are " + myDog.Age + " years old");
         Console.WriteLine(myDog.Breed);
 
-        Dog JohnnyTheDog = new Dog("John", 2, "Pug", 1);
+        Dog JohnnyTheDog = new Dog("Johnny", 10, "Pug", 25);
         Console.WriteLine(JohnnyTheDog.Name + JohnnyTheDog.Age + JohnnyTheDog.Breed + JohnnyTheDog.Weight);
 
         Snake SnapeTheSnake = new Snake("Snape", 50, "Python", 5.6);
         Console.WriteLine(SnapeTheSnake.Species);
+        Console.WriteLine(myDog.DogHealth(30));
+        Console.WriteLine(myDog.Age);
+
+        Animal myExtraAnimal = new Bat("ManBat", 4);
+        LinkedList<Animal> zoo = new LinkedList<Animal>();
+        List<Animal> list = new List<Animal>();
+        list.Add(myBat);
+        list.Add(myExtraAnimal);
+        list.Add(myDog);
+        list.Add(JohnnyTheDog);
+        list.Add(SnapeTheSnake);
+
+
+        //myBat.Name = Console.ReadLine();
+        Console.WriteLine(myBat.Name);
+
+        foreach (Animal a in list)
+        {
+            Console.WriteLine(a.Name);
+            Console.WriteLine(a.Age);
+        }
+
+        bool runProgram = true;
+
+
+
+
+
 
 
     }
